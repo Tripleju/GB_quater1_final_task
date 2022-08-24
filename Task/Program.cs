@@ -10,7 +10,35 @@
 
 //Массив задается на старте выполнения алгоритма
 
-string[] arr = { "hello", "2", "world", ":-)" };
+string[] CountNum()
+{
+    int count = 0;
+    string word;
+    string[] arr = new string[count];
+    while (true)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            Console.Write("Введите любое число: ");
+            word = Console.ReadLine();
+
+            if (word == "") return arr;
+            else
+            {
+                count++;
+                arr[i] = word;
+
+            }
+
+        }
+    }
+
+}
+
+
+
+
+// string[] arr = { "hello", "2", "world", ":-)" };
 
 void PrintArray(string[] array)
 {
@@ -26,18 +54,22 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
-void ShortArray(string[] array)
-{
-    int count = array.Length;
-    Console.Write($"[");
-    for (int i = 0; i < count; i++)
-    {
-        if (array[i].Length < 4)
-            Console.Write($"'{array[i]}', ");
-    }
-    Console.Write($"]");
-    Console.WriteLine();
-}
+// void ShortArray(string[] array)
+// {
+//     int count = array.Length;
+//     Console.Write($"[");
+//     for (int i = 0; i < count; i++)
+//     {
+//         if (array[i].Length < 4)
+//             Console.Write($"'{array[i]}', ");
+//     }
+//     Console.Write($"]");
+//     Console.WriteLine();
+// }
 
-PrintArray(arr);
-ShortArray(arr);
+// PrintArray(arr);
+// ShortArray(arr);
+
+
+CountNum();
+PrintArray(CountNum());
