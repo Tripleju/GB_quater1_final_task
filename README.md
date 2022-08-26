@@ -30,10 +30,7 @@ arr2[i] = arr[i]&gt;  - при помощи цикла поэлементно к
 
 &lt;if (word == "") return arr &gt;- когда введенное значение пусто, цикл заканчивается и возвращает весь введенный массив arr.
 
-![Вот алгоритм для этого метода](GB_Q1_final_task-input data.drawio.png)
-
-
-![Вот алгоритм для этого метода](https://drive.google.com/file/d/1oHB4xbqjKCXJ56bCMpdFCnqsMLeHL56T/view?usp=sharing)
+![Вот алгоритм для этого метода](GB_Q1_final_task-input_data.jpg)
 
 
 **ShortArray(string[] array)** - метод, который из имеющегося массива строк формирует и выводит массив из строк, длина которых меньше либо равна 3 символа.
@@ -53,8 +50,7 @@ arr2[i] = arr[i]&gt;  - при помощи цикла поэлементно к
 
 &lt;Console.WriteLine()&gt; - переходим на следующую строку.
 
-![вот алгоритм для этого метода](GB_Q1_final_task-main metod.JPG)
-![вот алгоритм для этого метода](https://drive.google.com/file/d/1ahOcCMspcesFpiAQDffEMofSCVuU70Zp/view?usp=sharing)
+![вот алгоритм для этого метода](GB_Q1_final_task-main_metod.jpg) 
 
 Реализован так же вспомогательный метод **PrintArray(string[] array)**, который выводит в консоль любой входной массив. Он используется для вывода проверки корректности работы методов.
 
